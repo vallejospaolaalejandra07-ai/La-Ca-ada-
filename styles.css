@@ -1,0 +1,81 @@
+/* Fuente general */
+body {
+  font-family: 'Poppins', sans-serif;
+  background-color: #f8f9fa;
+  color: #333;
+}
+
+/* Encabezado */
+header {
+  background: linear-gradient(135deg, #00695c, #26a69a); /* verde petróleo a verde agua */
+  color: white;
+}
+header h1 {
+  font-weight: 600;
+}
+header p {
+  font-size: 1.2rem;
+  margin-top: 10px;
+}
+
+/* Navbar */
+.navbar {
+  background-color: #004d40 !important; /* verde oscuro */
+}
+.navbar-brand {
+  font-weight: bold;
+}
+.navbar .nav-link {
+  color: #e0f2f1 !important;
+  transition: color 0.3s;
+}
+.navbar .nav-link:hover {
+  color: #80cbc4 !important;
+}
+
+/* Cards de servicios */
+.card {
+  border: none;
+  transition: transform 0.3s, box-shadow 0.3s;
+}
+.card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0px 6px 20px rgba(0,0,0,0.15);
+}
+.card-title {
+  color: #00695c;
+  font-weight: 600;
+}
+
+/* Botones */
+.btn-primary {
+  background-color: #00695c;
+  border: none;
+}
+.btn-primary:hover {
+  background-color: #004d40;
+}
+
+/* Formulario */
+form {
+  border-radius: 10px;
+}
+form label {
+  font-weight: 500;
+  color: #004d40;
+}
+
+/* Footer */
+footer {
+  background-color: #004d40;
+}
+footer p {
+  margin: 0;
+}
+footer a {
+  font-size: 1.3rem;
+  transition: color 0.3s;
+}
+footer a:hover {
+  color: #26a69a !important;
+}
