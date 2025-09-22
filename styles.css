@@ -5,6 +5,11 @@ body {
   color: #333;
 }
 
+.carrousel-img {
+  max-height: 80px  !important;
+  object-fit: cover;   
+}
+
 /* Encabezado */
 header {
   background: linear-gradient(135deg, #00695c, #26a69a); /* verde petróleo a verde agua */
@@ -20,13 +25,13 @@ header p {
 
 /* Navbar */
 .navbar {
-  background-color: #004d40 !important; /* verde oscuro */
+  background-color: #054e42 !important; /* verde oscuro */
 }
 .navbar-brand {
   font-weight: bold;
 }
 .navbar .nav-link {
-  color: #e0f2f1 !important;
+  color: #173a38 !important;
   transition: color 0.3s;
 }
 .navbar .nav-link:hover {
@@ -49,11 +54,11 @@ header p {
 
 /* Botones */
 .btn-primary {
-  background-color: #00695c;
+  background-color: #1bddc6;
   border: none;
 }
 .btn-primary:hover {
-  background-color: #004d40;
+  background-color: #0d6efd;
 }
 
 /* Formulario */
@@ -62,7 +67,7 @@ form {
 }
 form label {
   font-weight: 500;
-  color: #004d40;
+  color: #26b19e;
 }
 
 /* Footer */
